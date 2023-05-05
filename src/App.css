@@ -32,7 +32,28 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.on {
+  width: 20px;
+  height: 20px;
+  background: red;
+}
+
+.off {
+  width: 20px;
+  height: 20px;
+  background: red;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background: rgb(139, 60, 60);
+  border-radius: 20px;
+
 }
