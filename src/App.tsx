@@ -26,6 +26,7 @@ function App() {
       <OnOff />
 
       <UncontrolledOnOff on={on} onChange={setOn} />
+
       <UncontroledAccordion titleValue={'menu'} />
       <UncontroledRating />
     </div>
